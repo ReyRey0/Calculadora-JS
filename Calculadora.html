@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen" />
+    </head>
+    <body>
+        <div class="calculadora">
+            <table>
+                <tr>
+                    <td colspan="4">
+                           <input id="input" readonly>  
+                    </td>
+                </tr>
+                <tr>
+                    <td><button onclick="mostrarHistorico()" id="his">HIST</button></td>
+                    <td><button>REGUA</button></td>
+                    <td></td>
+                    <td><button onclick="voltar()" class="btn-op" class="btn-op">X</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="clean()" class="btn-op">C</button></td>
+                    <td><button onclick="insert('()')" class="btn-op">( )</button></td>
+                    <td><button onclick="porcentagem()" class="btn-op">%</button></td>
+                    <td><button onclick="insert('/')" class="btn-op">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('7')">7</button></td>
+                    <td><button onclick="insert('8')">8</button></td>
+                    <td><button onclick="insert('9')">9</button></td>
+                    <td><button onclick="insert('*')" class="btn-op">X</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('4')">4</button></td>
+                    <td><button onclick="insert('5')">5</button></td>
+                    <td><button onclick="insert('6')">6</button></td>
+                    <td><button onclick="insert('-')" class="btn-op">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('1')">1</button></td>
+                    <td><button onclick="insert('2')">2</button></td>
+                    <td><button onclick="insert('3')">3</button></td>
+                    <td><button onclick="insert('+')" class="btn-op">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="negativoPositivo()" class="btn-op">+/-</button></td>
+                    <td><button onclick="insert('0')">0</button></td>
+                    <td><button onclick="insert('.' )" class="btn-op">.</button></td>
+                    <td><button onclick="calcular()" class="btn-op">=</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="column">
+            <div class="card"> <p id="exibir"></p> </div>
+          </div>
+    </body>
+    <script type="text/javascript" src="myscript.js">
+        
+    </script>
+</html>

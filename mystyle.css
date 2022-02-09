@@ -1,0 +1,65 @@
+.calculadora{
+    position: absolute;
+    background-color: rgba(25,25,112);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    height: 500px;
+    width: 300px;
+}
+
+.column {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: none;
+float: left;
+width: 300px;
+height: 100px;
+padding: 10px;
+transition: width 2s, height 2s, transform 2s;
+overflow-x: hidden;
+overflow-y: scroll;
+white-space: nowrap;
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 8px;
+text-align: right;
+background-color: #f1f1f1;
+}
+
+.btn-op{
+    background-color: rgba(192,192,192);
+}
+
+    body {
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    font-size: medium;
+    text-align: right;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    width: 60px;
+    height: 60px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
